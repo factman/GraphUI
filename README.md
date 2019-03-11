@@ -1,8 +1,6 @@
 # Welcome to the GraphUI
 
-<img src="https://img.shields.io/badge/GraphUI-v1.0.0-blue.svg" alt="v1.0.0" />
-&nbsp;
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_shield">
+<img src="https://img.shields.io/badge/GraphUI-v1.0.0-blue.svg" alt="v1.0.0" /> <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_shield">
   <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=shield" alt="licence" />
 </a>
 
@@ -262,7 +260,7 @@ and examples.
     "JSON | Download as Json file",
     "CSV | Download as CSV file"
   ]
-}
+}</pre>
       </td>
       <td>Enable specific option in the dropdown menu by specifying it in an array of string (["IMAGE","JSON","CSV"]) the label after the pipe character (|) is optional.</td>
     </tr>
