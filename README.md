@@ -1,6 +1,7 @@
 # GraphUI
 
 [![NPM version][GraphUI-image]](https://github.com/factman/GraphUI#readme)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_shield)
 
 [Website](https://github.com/factman/GraphUI#readme) |
 [Installation](https://github.com/factman/GraphUI#installation) |
@@ -286,6 +287,9 @@ and examples.
 ## License
 
 MIT
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_large)
 
 ## Team
 
