@@ -1,14 +1,18 @@
-# GraphUI
+# Welcome to the GraphUI
 
-[![NPM version][GraphUI-image]](https://github.com/factman/GraphUI#readme)
+<img src="https://img.shields.io/badge/GraphUI-v1.0.0-blue.svg" alt="v1.0.0" />
+&nbsp;
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_shield">
+  <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=shield" alt="licence" />
+</a>
 
-[Website](https://github.com/factman/GraphUI#readme) |
-[Installation](https://github.com/factman/GraphUI#installation) |
-[Usage](https://github.com/factman/GraphUI#usage) |
-[Live Demo](https://github.com/factman/GraphUI#live-demo) |
-[Options](https://github.com/factman/GraphUI#options) |
-[Team](https://github.com/factman/GraphUI#team) |
-[Sponsor](https://github.com/factman/GraphUI#sponsor)
+[Website](https://factman.github.io/GraphUI/) |
+[Installation](#installation) |
+[Usage](#usage) |
+[Live Demo](https://factman.github.io/GraphUI/docs/) |
+[Options](#options) |
+[Team](#team) |
+[Sponsor](#sponsor)
 
 GraphUI is a JavaScript extension for plotting graphs for any website project.
 
@@ -91,12 +95,12 @@ Initialize GraphUI in a JavaScript file or within a `<script>` tag below GraphUI
 </script>
 ```
 
-Option `elementId` is optional if you used the default `#id` `"graph"` read more about GraphUI [Options](https://github.com/factman/GraphUI#options)
+Option `elementId` is optional if you used the default `#id` `"graph"` read more about GraphUI [Options](#options)
 
 ## Live Demo
 
 View
-[Live Demo](https://github.com/factman/GraphUI#live-demo)
+[Live Demo](https://factman.github.io/GraphUI/docs/)
 and examples.
 
 ## Options
@@ -112,7 +116,7 @@ and examples.
   </thead>
   <tbody>
     <tr>
-      <th>data</th>
+      <td>data</td>
       <td>
         {}<small>(required)</small>
       </td>
@@ -129,127 +133,127 @@ and examples.
       </td>
     </tr>
     <tr>
-      <th>elementId</th>
+      <td>elementId</td>
       <td>"graph"</td>
       <td>{elementId: "graphId"}</td>
       <td>Element #id to plot the graph.</td>
     </tr>
     <tr>
-      <th>height</th>
+      <td>height</td>
       <td>300</td>
       <td>{height: 300}</td>
       <td>Height of the graph in px.</td>
     </tr>
     <tr>
-      <th>backgroundColor</th>
+      <td>backgroundColor</td>
       <td>"#111111"</td>
       <td>{backgroundColor: "#111111"}</td>
       <td>Background color of the graph in as (<b>Hex</b>: "#111111" or <b>Color Name</b>: "darkblue" or <b>RGB|RGBA</b>: "rgba(0,0,0,0.5)").</td>
     </tr>
     <tr>
-      <th>gridColor</th>
+      <td>gridColor</td>
       <td>"rgba(255,255,255,0.1)"</td>
       <td>{gridColor: "rgba(255,255,255,0.1)"}</td>
       <td>Color for the grid lines in the graph.</td>
     </tr>
     <tr>
-      <th>textColor</th>
+      <td>textColor</td>
       <td>"rgba(255,255,255,0.8)"</td>
       <td>{textColor: "rgba(255,255,255,0.8)"}</td>
       <td>Color for the texts in the graph.</td>
     </tr>
     <tr>
-      <th>lineColor</th>
+      <td>lineColor</td>
       <td>"rgb(255,255,255)"</td>
       <td>{lineColor: "rgb(255,255,255)"}</td>
       <td>Color for the plotted line in the graph.</td>
     </tr>
     <tr>
-      <th>nodeColor</th>
+      <td>nodeColor</td>
       <td>{backgroundColor}</td>
       <td>{nodeColor: "black"}</td>
       <td>Color for each node on the plotted line in the graph.</td>
     </tr>
     <tr>
-      <th>nodeStroke</th>
+      <td>nodeStroke</td>
       <td>{lineColor}</td>
       <td>{nodeStroke: "white"}</td>
       <td>Stroke Color for each node on the plotted line in the graph.</td>
     </tr>
     <tr>
-      <th>precision</th>
+      <td>precision</td>
       <td>1</td>
       <td>{precision: 2}</td>
       <td>Number of decimals of each value plotted.</td>
     </tr>
     <tr>
-      <th>prefix</th>
+      <td>prefix</td>
       <td>""</td>
       <td>{prefix: "$"}</td>
       <td>A string to prepends at the beginning of each value plotted.</td>
     </tr>
     <tr>
-      <th>suffix</th>
+      <td>suffix</td>
       <td>""</td>
       <td>{suffix: "km/h"}</td>
       <td>A string to append at the end of each value plotted.</td>
     </tr>
     <tr>
-      <th>horizontalGrids</th>
+      <td>horizontalGrids</td>
       <td>5</td>
       <td>{horizontalGrids: 10}</td>
       <td>Number of horizontal grid lines to display.</td>
     </tr>
     <tr>
-      <th>showHorizontalGrids</th>
+      <td>showHorizontalGrids</td>
       <td>true</td>
       <td>{showHorizontalGrids: true}</td>
       <td>Show or hide horizontal grid lines on the graph.</td>
     </tr>
     <tr>
-      <th>showVerticalGrids</th>
+      <td>showVerticalGrids</td>
       <td>false</td>
       <td>{showVerticalGrids: true}</td>
       <td>Show or hide vertical grid lines on the graph.</td>
     </tr>
     <tr>
-      <th>showYAxisLabel</th>
+      <td>showYAxisLabel</td>
       <td>true</td>
       <td>{showYAxisLabel: true}</td>
       <td>Show or hide YAxis Labels on the graph.</td>
     </tr>
     <tr>
-      <th>showXAxisLabel</th>
+      <td>showXAxisLabel</td>
       <td>true</td>
       <td>{showXAxisLabel: true}</td>
       <td>Show or hide XAxis Labels on the graph.</td>
     </tr>
     <tr>
-      <th>showInlineLabel</th>
+      <td>showInlineLabel</td>
       <td>false</td>
       <td>{showInlineLabel: true}</td>
       <td>Show or hide inline Labels on each node of the graph.</td>
     </tr>
     <tr>
-      <th>inlineLabelColor</th>
+      <td>inlineLabelColor</td>
       <td>{textColor}</td>
       <td>{inlineLabelColor: "gray"}</td>
       <td>Color of the inline Labels on each node of the graph.</td>
     </tr>
     <tr>
-      <th>showInlineLabelValueOnly</th>
+      <td>showInlineLabelValueOnly</td>
       <td>false</td>
       <td>{showInlineLabelValueOnly: true}</td>
       <td>Show or hide graph labels for inline Label values (<b>false</b> Label 1: $20.00 | <b>true</b> $20.00).</td>
     </tr>
     <tr>
-      <th>enableOptionDropdown</th>
+      <td>enableOptionDropdown</td>
       <td>true</td>
       <td>{enableOptionDropdown: true}</td>
       <td>Enable or disable the graph option dropdown menu.</td>
     </tr>
     <tr>
-      <th>dropdownOptions</th>
+      <td>dropdownOptions</td>
       <td>"ALL"</td>
       <td>
         <pre>{
@@ -263,19 +267,19 @@ and examples.
       <td>Enable specific option in the dropdown menu by specifying it in an array of string (["IMAGE","JSON","CSV"]) the label after the pipe character (|) is optional.</td>
     </tr>
     <tr>
-      <th>showTable</th>
+      <td>showTable</td>
       <td>true</td>
       <td>{showTable: true}</td>
       <td>Show or hide the graph table.</td>
     </tr>
     <tr>
-      <th>tableBackgroundColor</th>
+      <td>tableBackgroundColor</td>
       <td>"white"</td>
       <td>{tableBackgroundColor: "white"}</td>
       <td>Background color for the graph table.</td>
     </tr>
     <tr>
-      <th>tableTextColor</th>
+      <td>tableTextColor</td>
       <td>"#444444"</td>
       <td>{tableTextColor: "#444444"}</td>
       <td>Text color for the graph table.</td>
@@ -285,7 +289,9 @@ and examples.
 
 ## License
 
-MIT
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_large">
+  <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=large" alt="licence" />
+</a>
 
 ## Team
 
@@ -327,5 +333,3 @@ The following company support GraphUI ongoing maintenance and development. [Beco
     </tr>
   </tbody>
 </table>
-
-[GraphUI-image]: https://img.shields.io/badge/GraphUI-v1.0.0-blue.svg
