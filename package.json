@@ -1,0 +1,30 @@
+{
+  "name": "graph-ui",
+  "version": "1.0.0",
+  "description": "GraphUI is a JavaScript extension for plotting graphs for any website project.",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "echo GraphUI",
+  },
+  "keywords": [
+    "graph",
+    "svg",
+    "plotter",
+    "line graph"
+  ],
+  "author": {
+    "email": "factman60@gmail.com",
+    "name": "Mohammed Odunayo"
+  },
+  "maintainers": [
+    {
+      "name": "Mohammed Odunayo",
+      "email": "factman60@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/factman/GraphUI.git"
+  },
+  "license": "MIT"
+}
