@@ -1,5 +1,5 @@
 {
-  "name": "graph-ui",
+  "name": "@factman/graph-ui",
   "version": "1.0.0",
   "description": "GraphUI is a JavaScript extension for plotting graphs for any website project.",
   "main": "./src/app.js",

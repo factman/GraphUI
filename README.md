@@ -44,7 +44,7 @@ git clone https://github.com/factman/GraphUI.git
 Install from NPM:
 
 ```bash
-npm install graph-ui
+npm install @factman/graph-ui
 ```
 
 Note: use the CSS and JS files in the `dist` folder.
