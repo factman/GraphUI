@@ -28,11 +28,11 @@ There are two ways to download or install GraphUI in any website project.
 
 ### Download or Clone From GitHub
 
-Download from Github:
+Download from GitHub:
 
 [Download Zip File](https://github.com/factman/GraphUI/archive/master.zip)
 
-Clone from Github:
+Clone from GitHub:
 
 ```bash
 git clone https://github.com/factman/GraphUI.git
@@ -46,7 +46,7 @@ Install from NPM:
 npm install @factman/graph-ui
 ```
 
-Note: use the CSS and JS files in the `dist` folder.
+Note: Use the CSS and JS files in the `dist` folder.
 
 ## Usage
 
@@ -286,20 +286,15 @@ and examples.
 
 ## License
 
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_large">
-  <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=large" alt="licence" />
-</a>
-
-
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_large)
 
 ## Team
 
-These folks keep the project moving and are resources for help.
+These individuals keep the project moving and serve as a valuable resource for help.
 
 ### Author
 
-The guy who manage releases, review feature requests, and ensure GraphUI is properly maintained.
+The guy who manages releases, reviews feature requests, and ensures GraphUI is properly maintained.
 
 <table>
   <tbody>
@@ -317,7 +312,7 @@ The guy who manage releases, review feature requests, and ensure GraphUI is prop
 
 ## Sponsor
 
-The following company support GraphUI ongoing maintenance and development. [Become a Sponsor](mailto:factman60@gmail.com) to get your logo on our README and website.
+The following companies support GraphUI's ongoing maintenance and development. [Become a Sponsor](mailto:factman60@gmail.com) to get your logo on our README and website.
 
 <h3>Sponsor</h3>
 <table>
