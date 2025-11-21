@@ -1,8 +1,7 @@
 # Welcome to the GraphUI
 
-<img src="https://img.shields.io/badge/GraphUI-v1.0.0-blue.svg" alt="v1.0.0" /> <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_shield">
-  <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=shield" alt="licence" />
-</a>
+[![NPM version][GraphUI-image]](https://github.com/factman/GraphUI#readme)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_shield)
 
 [Website](https://factman.github.io/GraphUI/) |
 [Installation](#installation) |
@@ -291,6 +290,9 @@ and examples.
   <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=large" alt="licence" />
 </a>
 
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffactman%2FGraphUI.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffactman%2FGraphUI?ref=badge_large)
+
 ## Team
 
 These folks keep the project moving and are resources for help.
@@ -331,3 +333,5 @@ The following company support GraphUI ongoing maintenance and development. [Beco
     </tr>
   </tbody>
 </table>
+
+[GraphUI-image]: https://img.shields.io/badge/GraphUI-v1.0.0-blue.svg
